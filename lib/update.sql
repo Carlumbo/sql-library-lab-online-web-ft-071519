@@ -1,2 +1,2 @@
-UPDATE characters SET name = "Martin"
-Where name = "cylon"
+UPDATE species FROM Characters SET species = "Martian"
+Where where species = "cylon"
