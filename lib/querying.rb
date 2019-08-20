@@ -23,7 +23,9 @@ end
 def select_name_and_series_subgenres_of_authors
   "SELECT authors.name, subgenres.name
    FROM series
-   INNER JOIN authors, subgenres"
+   INNER JOIN authors
+   ON series.id = authors.series_id
+   GROUP BY "
 end
 
 def select_series_title_with_most_human_characters
