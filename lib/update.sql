@@ -1,1 +1,1 @@
-UPDATE characters SET name 
+UPDATE characters SET name = "cylon"
